@@ -1,0 +1,114 @@
+body, p{
+    font-family: Helvetica;
+}
+
+p {
+
+}
+
+textarea{
+    font-family: Helvetica;
+    font-size: 12px;
+    height: 100px;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+    margin: 40px 90px;
+}
+
+.home {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    background-color: white;
+    color: #4b7a47;
+    border: 2px solid #4b7a47;
+    margin: 2px 5px;
+    padding: 8px 15px;
+    text-align: center;
+  }
+
+#button {
+    background-color: #4b7a47;
+    color: white;
+    margin: 2px 5px;
+    padding: 8px 15px;
+    text-align: center;
+  }
+
+.button:hover {
+    background-color: #4b7a47;
+    color: white;
+  }
+
+h1{
+    color: #4b7a47;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+}
+
+input,[type=text], [type=email]{
+    padding: 2px 2px;
+    margin: 8px 0px;
+    width: 100%;
+}
+
+.container {
+    
+    width: 800px;
+    height: 440px;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+    position: relative;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    padding-left: 250px;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+form {
+    padding-left: 227px;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: white;
+    border:2px solid #4b7a47;
+    color: #4b7a47;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #4b7a47;
+    color: white;
+}
+
+.buttoncontainer{
+    display: flex;
+}
+
+.icons {
+    padding-left: 45%;
+    margin: 2px 2px;
+}
+
+a {
+    color: #4b7a47;
+    text-decoration: none;
+}
